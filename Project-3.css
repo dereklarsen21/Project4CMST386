@@ -1,0 +1,92 @@
+body { background-color: #330000;
+       font-family: Verdana, Arial, sans-serif;
+}
+@media only screen and (max-width: 1600px) {
+	#wrapper {width: auto; 
+			  margin: auto;
+		      background-color: #F4E8BC;
+		      color: #330000;
+		   box-shadow: 5px 5px 5px #000000;}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	#wrapper {width: auto; 
+			  margin: auto;
+		      background-color: #F4E8BC;
+		      color: #330000;
+		   box-shadow: 3px 3px 3px #000000;}
+}
+.button {
+  background-color: #FFFFCC;
+  border: none;
+  border-radius: 3em;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #F4E8BC;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #330000;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+h1 { background-color: #F4E8BC;
+	 height: 110px;
+	 font-family: Georgia, "Times New Roman", serif;
+	 font-size: 3em;
+     padding-left: 220px;
+	 padding-top: 20px;
+	 text-shadow: 3px 3px 3px #90745D;
+	 margin-bottom: 0;
+}
+nav { padding-top: 10px;
+      float: left;
+      width: 200px; 
+}
+nav ul { list-style-type: none; 
+       padding-left: 10px;
+	 }
+nav li { padding-bottom: 5px;
+       font-weight: bold;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #330000; }
+nav a:visited{ color: #90745D; }
+nav a:hover { color: #3F4632; }
+
+main { background-color: #FFFFCC;
+          margin-left: 200px;
+          padding: 1px 20px 20px 20px;   
+		  min-height: 300px;
+		  display: block;
+}
+
+footer { background-color: #FFFFCC;
+       margin-left: 200px;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+figure { font-size: 0.75em;
+}
+figcaption { font-size: 0.75em;	
+}	  

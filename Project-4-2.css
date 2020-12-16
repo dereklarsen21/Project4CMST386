@@ -1,0 +1,113 @@
+body { background-color: #D1E8E2;
+       font-family: Verdana, Arial, sans-serif;
+}
+@media only screen and (max-width: 2400px) {
+	#wrapper {width: auto; 
+			  margin: auto;
+		      background-color: #116466;
+		      color: #116466;
+		   box-shadow: 5px 5px 5px #000000;}
+}
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
+	#wrapper {width: auto; 
+			  margin: auto;
+		      background-color: #116466;
+		      color: #116466;
+		   box-shadow: 3px 3px 3px #000000;}
+}
+@media only screen and (max-width: 900px){
+	#wrapper {width: auto; 
+			  margin: auto;
+				  margin-left: 50px;
+				  margin-right: 50px;
+		      background-color: #116466;
+		      color: #116466;
+			  font-size: 0.65em;
+		   box-shadow: 3px 3px 3px #000000;}
+}
+.button {
+  background-color: #2C3531;
+  border: none;
+  border-radius: 3em;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+  display: inline-block;
+  font-size: 1em;
+  text-align: center;
+  float: right;
+  padding: 2px;
+  padding-right: 5px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #116466;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #D9B08C;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #D1E8E2;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #FFCB9A;
+  text-decoration: underline;
+}
+
+h1 { background-color: #2C3531;
+	 height: 110px;
+	 font-family: Georgia, "Times New Roman", serif;
+	 font-size: 3em;
+     text-align: left;
+	 padding-left: 10px;
+	 padding-top: 25px;
+	 text-shadow: 3px 3px 3px #D1E8E2;
+	 margin-bottom: 25px;
+}
+nav { padding-top: 10px;
+      float: right;
+      width: 150px; 
+}
+nav ul { list-style-type: none; 
+       padding-right: 10px;
+	 }
+nav li { padding-bottom: 15px;
+       font-weight: bold;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #D1E8E2; }
+nav a:visited{ color: #D9B08C; }
+nav a:hover { color: #FFCB9A; }
+
+main { background-color: #D1E8E2;
+          margin-right: 150px;
+		  margin-left: 25px;
+          padding: 1px 20px 20px 20px;   
+		  min-height: 500px;
+		  display: block;
+}
+
+footer { background-color: #2C3531;
+       margin-right: 150px;
+	   margin-left: 25px;
+       padding: 20px;
+       text-align: center;
+	   font-size: small;
+	   font-style: italic;
+}
+figure { font-size: 0.75em;
+}
+figcaption { font-size: 0.75em;	
+}	  
+
+p { padding-left: 10px;
+ }
+
+a { color: #D9B08C;
+}

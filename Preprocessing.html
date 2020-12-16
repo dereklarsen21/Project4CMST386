@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CMST 386 - Derek Larsen - Project3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Project-3.css" rel="stylesheet">
+<!-- <link rel="stylesheet/less" href="/stylesheets/main.less" type="text/css" /> <script src="http://lesscss.googlecode.com/files/less-1.0.30.min.js"></script> -->
+<!-- I implemented LESS by using the less.js script right from the Google Code server. This saves a step of having to download the script package to use it. Using mixins are the best way to be able to reuse whole classes to chnage things like the color of a button but not have to type out all the code again to recreate that button. You can also make variables like @padding-value or @normal-font and then quickly apply padding values or font styles by implementing thouse variables across multiple sections. -->
+</head>
+<body>
+<div id="wrapper">
+  <header id="BacktoTop">
+      <h1>Project 3-preprocessing</h1>
+  </header>
+  <nav>
+   <ul> 
+    <li><a href="index.html">Home</a></li>
+	<li><a href="Project3.html">Project3</a></li>
+  </ul>
+  </nav>
+  <main>
+    <ul class="breadcrumb"> 
+    <li><a href="index.html">Home</a></li>
+	<li><a href="Project3.html">Project3</a></li>
+  </ul>
+  <h2>How do we implement preprocessing (client-side vs server-side)?</h2>
+  <p> &nbsp;&nbsp; Preprocessing is transforming raw data into an understandable format, for the processor to compile, through data mining. The way to implement data preprocessing is to import libraries, then the dataset, handling of missing data, then of categorical data, split dataset into testing and training sets, and finally scaling.  </p>
+  <h2>What are some of the mechanisms used in either LESS or SASS?</h2>
+  <p> &nbsp;&nbsp; In LESS, you can have cleaner structures with nesting, create variables to use for layout options and mixins. Nesting allows the creator of the webpage to incorporate like values together under one set of brackets. This way you can more easily find a section to make changes if the coding doesn't seem to be working out like you thought. Creating variables and reusing whole classes comes in handy as well. This also ties in mixins and what they are used for. By creating a variable like @main-color, you can then use that color variable throughout your coding by calling on it and also be able to simply change the color when you do. Mixins are just the reusable classes that contain the variable(s) that are needed for that particular section of coding. </p>
+  </main>
+  <footer>
+  Copyright &copy; 2020 | Derek Larsen &nbsp; &nbsp;
+  <a href="#BacktoTop">Back to Top</a>
+  </footer>
+</div>
+</body>
+</html>
